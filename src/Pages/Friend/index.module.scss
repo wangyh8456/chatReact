@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    padding: 100px 100px;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    padding-bottom: 15px;
+    width: 100%;
+}
+.text{
+    color: #909090;
+}
+.beizhu{
+    font-size: 20px;
+    font-weight: bold;
+}
+.avatar{
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.mid{
+    width: 100%;
+    padding: 15px 0 15px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #909090;
+}
+.item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.name{
+    width: 80px;
+}
+.value{
+    flex:1
+}
+.icon{
+    width: 24px;
+    height:24px;
+    background: url('../../Images/icon/modify.svg') no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+}
+.input{
+    border: 1px solid #8a8a8a;
+    &:hover{
+        border: 1px solid #8a8a8a;
+    }
+    &:focus{
+        border: 1px solid #8a8a8a;
+    }
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 15px;
+}

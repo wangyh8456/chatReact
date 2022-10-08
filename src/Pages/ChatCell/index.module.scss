@@ -1,0 +1,87 @@
+.container{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+    // margin-bottom: 10px;
+    &:hover{
+        background: #e0e0e0;
+    }
+}
+.choose{
+    background: #c0c0c0;
+}
+.avatar{
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.mid{
+    flex:1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.name{
+    font-size: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    // line-height: 18px;
+    // margin-bottom: 10px;
+    // margin-top: 3px;
+}
+.news{
+    font-size: 12px;
+    // line-height: 12px;
+    color: #909090;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.buttonzone{
+    width: 60px;
+    display: flex;
+    height: 44px;
+    cursor: pointer;
+    direction: rtl;
+}
+.time{
+    font-size: 11px;
+    color: #909090;
+}
+.btn{
+    width: 60px;
+    height: 30px;
+    background: #1296db;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.disablebtn{
+    width: 60px;
+    height: 30px;
+    color: #1296db;
+    background: #fff;
+    border: 1px solid #c5c5c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.agree{
+    width: 24px;
+    height: 24px;
+    background: url('../../Images/icon/agree.svg') no-repeat;
+    background-size: 100% 100%;
+}
+.disagree{
+    width: 24px;
+    height: 24px;
+    background: url('../../Images/icon/disagree.svg') no-repeat;
+    background-size: 100% 100%;
+}

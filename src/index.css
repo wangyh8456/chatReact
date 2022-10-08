@@ -1,0 +1,117 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+#root{
+  width: 100%;
+  height: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.borderbottom::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #d5d5d5;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+::-webkit-scrollbar {
+  /* display: none;  */
+  /* Chrome Safari */
+  width: 8px;
+}
+::-webkit-scrollbar-thumb{
+  width: 8px;
+  border-radius: 4px;
+  background: #c0c0c0;
+}
+.clearfix:after{
+  content: '';
+  clear: both;
+  display: block;
+}
+.emoji_base{
+  display: inline-block;
+  margin: 0 0;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.bg-感冒 {
+  width: 32px; height: 32px;
+  background: url('./Images/css_sprites.png') -10px -10px;
+}
+
+.bg-惊吓 {
+  width: 32px; height: 32px;
+  background: url('./Images/css_sprites.png') -62px -10px;
+}
+
+.bg-惊讶 {
+  width: 32px; height: 32px;
+  background: url('./Images/css_sprites.png') -10px -62px;
+}
+
+.bg-大笑 {
+  width: 32px; height: 32px;
+  background: url('./Images/css_sprites.png') -62px -62px;
+}
+
+.bg-舌头 {
+  width: 32px; height: 32px;
+  background: url('./Images/css_sprites.png') -114px -10px;
+}
+
+.bg-疑问 {
+  width: 32px; height: 32px;
+  background: url('./Images/css_sprites.png') -114px -62px;
+}
+
+.bg-微笑 {
+  width: 32px; height: 32px;
+  background: url('./Images/css_sprites.png') -10px -114px;
+}
+
+.bg-表情 {
+  width: 32px; height: 32px;
+  background: url('./Images/css_sprites.png') -62px -114px;
+}
+
+.bg-发怒 {
+  width: 32px; height: 32px;
+  background: url('./Images/css_sprites.png') -114px -114px;
+}
+
+.bg-困 {
+  width: 32px; height: 32px;
+  background: url('./Images/css_sprites.png') -166px -10px;
+}
+
+.bg-泪哭 {
+  width: 32px; height: 32px;
+  background: url('./Images/css_sprites.png') -166px -62px;
+}
+
+.bg-调皮 {
+  width: 32px; height: 32px;
+  background: url('./Images/css_sprites.png') -166px -114px;
+}
+
+.bg-白眼 {
+  width: 32px; height: 32px;
+  background: url('./Images/css_sprites.png') -10px -166px;
+}
+
+.bg-冷汗 {
+  width: 32px; height: 32px;
+  background: url('./Images/css_sprites.png') -62px -166px;
+}

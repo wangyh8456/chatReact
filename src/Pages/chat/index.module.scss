@@ -1,0 +1,89 @@
+.top{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background: #f1f1f1;
+}
+.mid{
+    flex: 1;
+    overflow-y: auto;
+    width: 100%;
+    background: #f1f1f1;
+    padding: 20px 20px 0;
+}
+.bot{
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+    background: #f1f1f1;
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+.textarea{
+    width: 100%;
+    flex:1;
+    resize: none;
+    padding: 0 0;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    font-family: "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "Apple Color Emoji", "Twemoji Mozilla", "Noto Color Emoji", "Android Emoji", -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif!important;
+    &:focus{
+        outline:none;
+    }
+}
+.obj{
+    display: inline-block;
+    position: relative;
+}
+.icon{
+    width: 22px;
+    height: 22px;
+    float: left;
+    cursor: pointer;
+}
+.face{
+    background: url('../../Images/icon/face.svg') no-repeat;
+    background-size: 100% 100%;
+}
+.bg{
+    background: url('../../Images/icon/bg.svg') no-repeat;
+    background-size: 100% 100%;
+}
+.faces{
+    cursor: pointer;
+    font-size: 24px;
+}
+.cursors{
+    background: #000;
+    width: 1px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    animation: twinkle 0.8s infinite alternate;
+}
+@keyframes twinkle {
+    0%{
+        opacity:.0.8;
+    }
+    100%{
+        opacity:0;
+    }
+}
+.upload{
+    :global{
+        .ant-upload.ant-upload-select-picture-card{
+            width: 22px;
+            height: 22px;
+            margin-left: 10px;
+            border:none;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    margin-bottom: 20px;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+}
+.lrect{
+    padding-left: 10px;
+    position: relative;
+}
+.rrect{
+    padding-right: 10px;
+    position: relative;
+}
+.ltri{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    background: url('../../Images/icon/whitetri.svg') no-repeat;
+    background-size: 100% 100%;
+    transform: rotate(270deg);
+}
+.rtri{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    background: url('../../Images/icon/bluetri.svg') no-repeat;
+    background-size: 100% 100%;
+    transform: rotate(90deg);
+}
+.lcontent{
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+    white-space: pre-wrap;
+    font-family: "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "Apple Color Emoji", "Twemoji Mozilla", "Noto Color Emoji", "Android Emoji", -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif!important;
+}
+.rcontent{
+    padding: 10px;
+    border-radius: 5px;
+    background: #1296db;
+    white-space: pre-wrap;
+    color: #fff;
+    font-family: "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "Apple Color Emoji", "Twemoji Mozilla", "Noto Color Emoji", "Android Emoji", -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif!important;
+}
+.imgbox{
+    max-width: 250px;
+}
