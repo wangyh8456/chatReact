@@ -1,8 +1,8 @@
-import './App.css';
 import {useRoutes} from 'react-router-dom';
 import {ConfigProvider} from 'antd';
 import zhCN from 'antd/es/locale/zh_CN'; 
-import router from './router/index'
+import router from './router/index';
+import './App.css';
 
 function App() {
   return (
